@@ -1,0 +1,64 @@
+        body{
+    background-image: url('https://st3.depositphotos.com/31118952/33095/v/600/depositphotos_330954860-stock-video-8k-7680x4320-60p-stock-market.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+
+
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    background-color: black;
+
+}
+
+h2{
+    text-align: center;
+    color:aquamarine;
+}
+label{
+    display:block;
+    margin-bottom: 5px;
+    color:white;
+}
+
+select,
+input{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #aaa;
+    border-radius: 3px;
+}
+
+button{
+    background-color: #007bff;
+    color:white;
+    border:none;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #0056b3;
+}
+
+#result{
+    margin: top 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background-color:  black;
+    color: yellow;
+    white-space: pre-wrap;
+    
+}
